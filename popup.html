@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ProX Scheduler</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+    <div id="upload-container">
+        <input type="file" id="image-input" multiple accept="image/*">
+        <button id="schedule-button">Schedule Posts</button>
+    </div>
+    <div id="schedule-settings">
+    <label for="start-datetime">Continue scheduling from (Date & Time):</label>
+    <input type="datetime-local" id="start-datetime">
+    <label><input type="checkbox" id="vary-minutes"> Vary minutes (+/- 5 minutes)</label>
+    <button id="save-settings">Save Settings</button> 
+</div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

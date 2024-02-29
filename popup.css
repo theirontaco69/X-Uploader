@@ -1,0 +1,54 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Styling the upload container for clarity and spacing */
+#upload-container {
+    margin-bottom: 20px;
+}
+
+/* Style for the file input */
+#image-input {
+    margin-bottom: 10px;
+}
+
+/* Button styling for a more engaging appearance */
+button {
+    background-color: #4CAF50; /* A nice shade of green */
+    color: white;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Additional button states for interaction feedback */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Style adjustments for the schedule settings section */
+#schedule-settings {
+    margin-top: 20px;
+}
+
+/* Label styling for better readability */
+label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Input field styling for consistency */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
